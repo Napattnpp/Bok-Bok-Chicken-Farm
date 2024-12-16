@@ -43,4 +43,4 @@
 #define MANUAL                        0
 
 /*---------------------------------------------------------------- Google Apps Script ----------------------------------------------------------------*/
-#define URL                           "https://script.google.com/macros/s/AKfycbwzPUcjt3RmOfYFhP8dQ5cKHjTIRB38RQqkD4_w05VysG_z3l5ge-j_d5FNjHv-zFvE/exec"
+#define URL                           ""
