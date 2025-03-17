@@ -75,7 +75,7 @@ BLYNK_WRITE(V5) {
   blynkCheckMode(4, 5, value);
 }
 
-/*------------------------------------------------ Deny any manual activity when user in manual mode ------------------------------------------------*/
+/*---------------------------------------------- Don't allow manual control when the user is in auto mode ----------------------------------------------*/
 void denyManualMode(int virtualPin, int value) {
   Blynk.virtualWrite(virtualPin, !value);
 }
