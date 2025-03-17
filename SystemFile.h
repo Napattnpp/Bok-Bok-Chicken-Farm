@@ -1,7 +1,7 @@
 #include "Definition.h"
 
 // Temperature and Humidity (DHT22 module)
-#include <DHT.h>
+#include <DHT22.h>
 #include "DHTX.h"
 
 // Ammonia sensor (MQ-137 module)
