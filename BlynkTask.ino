@@ -10,6 +10,7 @@ void sendDataToBlynk() {
   mqx.log();
   mqx.calculateDataRange();
 
+  // Set datastreams
   Blynk.virtualWrite(V9, dhtx.temperature);
   Blynk.virtualWrite(V10, dhtx.humidity);
   Blynk.virtualWrite(V11, map(mqx.value, 0, 4095, 0, 100));
