@@ -14,6 +14,7 @@ void setup() {
   // Initialize Serial monitor
   Serial.begin(115200);
 
+  // On-board LED --> Show Blynk connection status
   pinMode(2, OUTPUT);
 
   dhtx.init();
