@@ -31,13 +31,13 @@
 #define RELAY_OFF                     1
 
 /*---------------------------------------------------------------------- Blynk ----------------------------------------------------------------------*/
-#define BLYNK_TEMPLATE_ID             "TMPL6Nb9ggK1l"
-#define BLYNK_TEMPLATE_NAME           "Bok Bok Chicken Farm"
-#define BLYNK_AUTH_TOKEN              "nG3sJZUaMrkhj7BFO39TUjmUdkBX9VAf"
+#define BLYNK_TEMPLATE_ID             ""
+#define BLYNK_TEMPLATE_NAME           ""
+#define BLYNK_AUTH_TOKEN              ""
 #define BLYNK_PRINT                   Serial
 // WiFi
-#define WIFI_SSID                     "PARIDA03"
-#define WIFI_PASSWORD                 "user3344"
+#define WIFI_SSID                     ""
+#define WIFI_PASSWORD                 ""
 // Mode
 #define AUTO                          1
 #define MANUAL                        0
