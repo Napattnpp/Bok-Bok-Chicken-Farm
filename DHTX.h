@@ -1,6 +1,6 @@
-DHT dht(DHT_PIN, DHT_TYPE);
-
 class DHTX {
+  private:
+    DHT dht;
   public:
     float temperature = 0;
     float humidity = 0;
@@ -11,6 +11,8 @@ class DHTX {
     */
     float temperatureRange[2];
     float humidityRange[2];
+
+    DHTX(int _dhtPin, int _dhtType) : dht(_dhtPin, _dhType) {}
 
     void init();
     void get();
