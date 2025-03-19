@@ -1,6 +1,6 @@
 #include "SystemFile.h"
 
-DHTX dhtx;
+DHTX dhtx(DHT_PIN, DHT_TYPE);
 MQX mqx;
 Relay relay;
 BlynkTimer timer;
