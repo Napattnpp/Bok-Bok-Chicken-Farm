@@ -23,6 +23,7 @@ class DHTX {
 
 void DHTX::init() {
   dht.begin();
+  delay(100);
 
   // Set default value to temperatureRange[2] and humidityRange[2]
   get();
